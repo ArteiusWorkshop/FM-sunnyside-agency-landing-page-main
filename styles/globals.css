@@ -1,0 +1,381 @@
+:root {
+  --Softred: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --graphicdesigntext: hsl(167, 40%, 24%);
+  --photographytext: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+  --Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+  --Verydarkgrayishblue: hsl(213, 9%, 39%);
+  --Darkgrayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+
+@media only screen and (max-width: 425px) {
+  .oranges {
+    background-image: url(/img/mobile/image-header.jpg);
+  }
+
+  .transform {
+    background-image: url(/img/mobile/image-transform.jpg);
+  }
+
+  .standout {
+    background-image: url(/img/mobile/image-stand-out.jpg);
+  }
+
+  .cherry,
+  .mandarin {
+    background-image: url(/img/mobile/image-graphic-design.jpg);
+    justify-content: end;
+  }
+
+  .mandarin {
+    background-image: url(/img/mobile/image-photography.jpg);
+  }
+
+  .milk {
+    background-image: url(/img/mobile/image-gallery-milkbottles.jpg);
+  }
+
+  .orange {
+    background-image: url(/img/mobile/image-gallery-orange.jpg);
+  }
+
+  .cone {
+    background-image: url(/img/mobile/image-gallery-cone.jpg);
+  }
+
+  .sugar {
+    background-image: url(/img/mobile/image-gallery-sugar-cubes.jpg);
+  }
+
+  .secction-image {
+    height: 400px;
+  }
+
+  .header {
+    width: 100vw;
+  }
+
+  .images {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .oranges {
+    background-image: url(/img/desktop/image-header.jpg);
+    width: 100vw;
+  }
+
+  .transform {
+    background-image: url(/img/desktop/image-transform.jpg);
+  }
+
+  .standout {
+    background-image: url(/img/desktop/image-stand-out.jpg);
+  }
+
+  .cherry,
+  .mandarin {
+    background-image: url(/img/desktop/image-graphic-design.jpg);
+    justify-content: end;
+  }
+
+  .mandarin {
+    background-image: url(/img/desktop/image-photography.jpg);
+  }
+
+  .milk {
+    background-image: url(/img/desktop/image-gallery-milkbottles.jpg);
+  }
+
+  .orange {
+    background-image: url(/img/desktop/image-gallery-orange.jpg);
+  }
+
+  .cone {
+    background-image: url(/img/desktop/image-gallery-cone.jpg);
+  }
+
+  .sugar {
+    background-image: url(/img/desktop/image-gallery-sugarcubes.jpg);
+  }
+
+  .navbar .MuiButton-root {
+    color: var(--White);
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navbar .MuiButton-root:hover {
+    background-color: #42a0a0;
+  }
+
+  .trd {
+    display: flex;
+  }
+
+  .ord {
+    flex-direction: row-reverse;
+  }
+
+  .gdp,
+  .ord {
+    display: flex;
+  }
+
+  .header {
+    width: 50vw;
+  }
+
+  .testimonial {
+    display: flex;
+    width: 100vw;
+  }
+
+  .testimonials {
+    height: 600px;
+  }
+
+  .material {
+    display: flex;
+    width: 100vw;
+  }
+
+  .images {
+    height: 300px;
+  }
+}
+
+.navbar {
+  background-color: #3dbeff;
+  height: 50px;
+}
+
+.MuiMenuItem-root {
+  justify-content: center;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: var(--Grayishblue);
+  width: 100%;
+  align-self: center;
+}
+
+.MuiMenuItem-root:hover {
+  color: var(--Verydarkdesaturatedblue);
+  background-color: var(--Yellow);
+  border-radius: 50px;
+}
+
+.barlow-six {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.fraunces-nine,
+.fraunces-seven {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.fraunces-nine {
+  font-weight: 900;
+}
+
+body {
+  background-color: var(--footer);
+}
+
+.header,
+.mainheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 610px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainheader {
+  width: 100vw;
+}
+
+.title {
+  color: var(--White);
+  font-size: 40px;
+}
+
+.secction {
+  background-color: var(--White);
+  color: var(--Verydarkgrayishblue);
+  width: 100vw;
+}
+
+.secction-image {
+  height: 400px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text,
+.texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  height: 400px;
+  width: 100vw;
+  justify-content: center;
+}
+
+.texto {
+  height: 100%;
+  width: 80%;
+  justify-content: end;
+}
+
+.head,
+.learnmore {
+  color: var(--Verydarkdesaturatedblue);
+  font-size: 2.5em;
+}
+
+.cherry .head,
+.mandarin .head {
+  padding-top: 80px;
+  color: var(--graphicdesigntext);
+  font-size: 2.5em;
+}
+
+.mandarin .head {
+  color: var(--photographytext);
+}
+
+.cherry .parragraph {
+  color: var(--graphicdesigntext);
+}
+
+.mandarin .parragraph {
+  color: var(--photographytext);
+}
+
+.learnmore {
+  font-size: 18px;
+}
+
+.lmbtn.MuiButton-root:hover,
+.sobtn.MuiButton-root:hover {
+  text-decoration: none;
+  border-bottom: 10px solid #fad400;
+  height: 20px;
+  padding-top: 22px;
+}
+
+.sobtn.MuiButton-root:hover {
+  border-bottom: 10px solid #fe7867;
+}
+
+.testimonials {
+  background-color: var(--White);
+}
+
+.testimonials-header {
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-head {
+  color: var(--Grayishblue);
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.testimonials .text {
+  height: 350px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.ttext {
+  color: var(--Verydarkgrayishblue);
+  font-size: 18px;
+}
+
+.tname {
+  color: var(--Verydarkdesaturatedblue);
+  font-size: 20px;
+}
+
+.tfoot {
+  color: var(--Grayishblue);
+  font-size: 16px;
+}
+
+.images {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.galery {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: var(--footer);
+}
+
+.contact,
+.media {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .MuiButton-root {
+  color: var(--graphicdesigntext);
+  text-transform: capitalize;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer .MuiButton-root:hover {
+  text-decoration: none;
+  color: var(--White);
+}
+
+.media {
+  width: 50%;
+}
+
+.MuiIconButton-root {
+  width: 50px;
+  height: 50px;
+}
+
+.MuiIconButton-root :hover {
+  fill: #fff;
+}
