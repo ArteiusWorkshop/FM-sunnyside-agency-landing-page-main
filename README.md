@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-sunnyside-agency-landing-page-main)
-- Live Site URL: [Live site URL here](https://github.com/ArteiusWorkshop/FM-sunnyside-agency-landing-page-main)
+- Live Site URL: [Live site URL here](https://fm-sunnyside-agency-landing-page-eta.vercel.app/)
 
 ## My process
 
